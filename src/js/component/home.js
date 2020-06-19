@@ -12,10 +12,18 @@ export function Home() {
 					onClick={() => setColor("red")}>
 					Red
 				</div>
-				<div className="yellow" onClick={() => setColor("yellow")}>
+				<div
+					className={
+						color === "yellow" ? "yellow active" : "yellow inactive"
+					}
+					onClick={() => setColor("yellow")}>
 					Yellow
 				</div>
-				<div className="green" onClick={() => setColor("green")}>
+				<div
+					className={
+						color === "green" ? "green active" : "green inactive"
+					}
+					onClick={() => setColor("green")}>
 					Green
 				</div>
 			</div>
