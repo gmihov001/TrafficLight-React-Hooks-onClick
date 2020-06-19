@@ -6,4 +6,11 @@
     height: 400px;
     margin: 50px auto;
     border-radius: 15px;
+    color: white;
 }
+.traffic-light > div {
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 130px;
+}
+
