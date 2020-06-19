@@ -16,18 +16,21 @@
 }
 .red.active {
     background-color: red;
+    box-shadow: 0 0 50px 30px lightcoral;
 }
 .red.inactive {
     background-color: gray;
 }
 .yellow.active {
     background-color: yellow;
+    box-shadow: 0 0 50px 30px lightgoldenrodyellow;
 }
 .yellow.inactive {
     background-color: gray;
 }
 .green.active {
     background-color: green;
+    box-shadow: 0 0 50px 30px yellowgreen;
 }
 .green.inactive {
     background-color: gray;
