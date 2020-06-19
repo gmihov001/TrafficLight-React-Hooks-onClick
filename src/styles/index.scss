@@ -7,10 +7,28 @@
     margin: 50px auto;
     border-radius: 15px;
     color: white;
+    padding: 5px;
 }
 .traffic-light > div {
     border-radius: 50%;
     border: 1px solid white;
     height: 130px;
 }
-
+.red.active {
+    background-color: red;
+}
+.red.inactive {
+    background-color: gray;
+}
+.yellow.active {
+    background-color: yellow;
+}
+.yellow.inactive {
+    background-color: gray;
+}
+.green.active {
+    background-color: green;
+}
+.green.inactive {
+    background-color: gray;
+}
