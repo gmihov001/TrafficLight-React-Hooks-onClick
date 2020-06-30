@@ -3,6 +3,7 @@ import React, { useState } from "react";
 //create your first component
 export function Home() {
 	const [color, setColor] = useState(null);
+
 	return (
 		<div className="text-center mt-5">
 			<h1>Traffic Light</h1>
