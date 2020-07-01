@@ -20,7 +20,13 @@ export function Home() {
 					onClick={() => setColor("yellow")}>
 					Yellow
 				</div>
-			</div>
+			<<div
+					className={
+						color === "green" ? "green active" : "green inactive"
+					}
+					onClick={() => setColor("green")}>
+					Green
+				</div>/div>
 			<button className="btn btn-success">
 				If you see this green button... bootstrap is working
 			</button>
