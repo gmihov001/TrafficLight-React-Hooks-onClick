@@ -13,7 +13,6 @@ import { Home } from "./component/home.js";
 
 //render your react application
 var prevColor = "";
-var nextColor = "";
 
 const runLight = () => {
 	if (prevColor == "red") {
