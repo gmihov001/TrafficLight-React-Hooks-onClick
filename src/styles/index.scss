@@ -9,18 +9,23 @@
     color: white;
     padding: 5px;
 }
+
 .traffic-light > div {
     border-radius: 50%;
     border: 1px solid white;
     height: 130px;
 }
-.red.active {
+
+.red {
+    &.active {
     background-color: red;
     box-shadow: 0 0 50px 30px lightcoral;
-}
-.red.inactive {
+    }
+    &.inactive {
     background-color: gray;
+    }
 }
+
 .yellow.active {
     background-color: yellow;
     box-shadow: 0 0 50px 30px yellow;

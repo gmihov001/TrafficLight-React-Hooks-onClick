@@ -20,7 +20,7 @@ export function Home() {
 					onClick={() => setColor("yellow")}>
 					Yellow
 				</div>
-                <div
+				<div
 					className={
 						color === "green" ? "green active" : "green inactive"
 					}
