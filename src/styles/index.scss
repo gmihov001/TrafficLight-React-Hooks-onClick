@@ -13,7 +13,7 @@
 .traffic-light > div {
     border-radius: 50%;
     border: 1px solid white;
-    height: 130px;
+    height: 130px;s
 }
 
 .red {
@@ -35,11 +35,13 @@
     background-color: gray;
     }
 }
-    
-.green.active {
+
+.green {
+    &.active {
     background-color: green;
     box-shadow: 0 0 50px 30px yellowgreen;
-}
-.green.inactive {
+    }
+    &.green.inactive {
     background-color: gray;
-}
+    }
+}    
