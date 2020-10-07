@@ -28,9 +28,12 @@ export function Home(props) {
 				</div>
 				<div
 					className={
-						color === "green" ? "green active" : "green inactive"
+						props.color === "green"
+							? "green active"
+							: "green inactive"
 					}
-					onClick={() => setColor("green")}>
+					//onClick={() => setColor("green")}
+				>
 					Green
 				</div>
 			</div>
