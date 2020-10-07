@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //create your first component
-export function Home() {
+export function Home(props) {
 	//const [color, setColor] = useState(null);
 
 	return (
@@ -9,15 +9,21 @@ export function Home() {
 			<h1>Traffic Light</h1>
 			<div className="traffic-light">
 				<div
-					className={color === "red" ? "red active" : "red inactive"}
-					onClick={() => setColor("red")}>
+					className={
+						props.color === "red" ? "red active" : "red inactive"
+					}
+					// onClick={() => setColor("red")}
+				>
 					Red
 				</div>
 				<div
 					className={
-						color === "yellow" ? "yellow active" : "yellow inactive"
+						props.color === "yellow"
+							? "yellow active"
+							: "yellow inactive"
 					}
-					onClick={() => setColor("yellow")}>
+					// onClick={() => setColor("yellow")}
+				>
 					Yellow
 				</div>
 				<div
