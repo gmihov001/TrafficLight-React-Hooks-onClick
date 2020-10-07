@@ -20,6 +20,14 @@ const runLight = () => {
 		ReactDOM.render(<Home on="green" />, document.querySelector("#app"));
 		prevColor = "green";
 	}
+	if (prevColor == "green") {
+		ReactDOM.render(<Home on="yellow" />, document.querySelector("#app"));
+		prevColor = "yellow";
+	}
+	if (prevColor == "yellow") {
+		ReactDOM.render(<Home on="red" />, document.querySelector("#app"));
+		prevColor = "red";
+	}
 };
 
 setInterval(runLight, 3000);
