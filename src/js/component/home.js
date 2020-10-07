@@ -13,9 +13,7 @@ export function Home(props) {
 						props.color === "red" ? "red active" : "red inactive"
 					}
 					// onClick={() => setColor("red")}
-				>
-					Red
-				</div>
+				/>
 				<div
 					className={
 						props.color === "yellow"
@@ -23,9 +21,7 @@ export function Home(props) {
 							: "yellow inactive"
 					}
 					// onClick={() => setColor("yellow")}
-				>
-					Yellow
-				</div>
+				/>
 				<div
 					className={
 						props.color === "green"
@@ -33,9 +29,7 @@ export function Home(props) {
 							: "green inactive"
 					}
 					//onClick={() => setColor("green")}
-				>
-					Green
-				</div>
+				/>
 			</div>
 			<button className="btn btn-success">
 				If you see this green button... bootstrap is working
