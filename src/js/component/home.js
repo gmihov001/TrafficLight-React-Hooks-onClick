@@ -24,11 +24,11 @@ export function Home(props) {
 				/>
 				<div
 					className={
-						props.color === "green"
+						color === "green"
 							? "green active"
 							: "green inactive"
 					}
-					//onClick={() => setColor("green")}
+					onClick={() => setColor("green")}
 				/>
 			</div>
 			<button className="btn btn-success">
