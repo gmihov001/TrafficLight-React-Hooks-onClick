@@ -19,6 +19,7 @@
 .red {
     &.active {
     background-color: red;
+    background-image: linear-gradient(red, lightcoral);
     box-shadow: 0 0 50px 30px lightcoral;
     }
     &.inactive {
@@ -29,6 +30,7 @@
 .yellow {
     &.active {
     background-color: yellow;
+    background-image: linear-gradient(yellow, rgb(242, 248, 155));
     box-shadow: 0 0 50px 30px yellow;
     }
     &.inactive {
@@ -39,6 +41,7 @@
 .green {
     &.active {
     background-color: rgb(13, 218, 13);
+    background-image: linear-gradient(rgb(13, 218, 13), lightgreen);
     box-shadow: 0 0 50px 30px yellowgreen;
     }
     &.inactive {
