@@ -9,24 +9,18 @@ export function Home(props) {
 			<h1>Traffic Light</h1>
 			<div className="traffic-light">
 				<div
-					className={
-						color === "red" ? "red active" : "red inactive"
-					}
+					className={color === "red" ? "red active" : "red inactive"}
 					onClick={() => setColor("red")}
 				/>
 				<div
 					className={
-						color === "yellow"
-							? "yellow active"
-							: "yellow inactive"
+						color === "yellow" ? "yellow active" : "yellow inactive"
 					}
 					onClick={() => setColor("yellow")}
 				/>
 				<div
 					className={
-						color === "green"
-							? "green active"
-							: "green inactive"
+						color === "green" ? "green active" : "green inactive"
 					}
 					onClick={() => setColor("green")}
 				/>
