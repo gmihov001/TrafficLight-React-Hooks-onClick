@@ -25,9 +25,6 @@ export function Home(props) {
 					onClick={() => setColor("green")}
 				/>
 			</div>
-			<button className="btn btn-success">
-				If you see this green button... bootstrap is working
-			</button>
 		</div>
 	);
 }
