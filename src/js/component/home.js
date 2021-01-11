@@ -10,7 +10,7 @@ export function Home(props) {
 			<div className="traffic-light">
 				<div
 					className={
-						props.color === "red" ? "red active" : "red inactive"
+						color === "red" ? "red active" : "red inactive"
 					}
 					// onClick={() => setColor("red")}
 				/>
