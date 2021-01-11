@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 export function Home(props) {
-	//const [color, setColor] = useState(null);
+	const [color, setColor] = useState(null);
 
 	return (
 		<div className="text-center mt-5">
