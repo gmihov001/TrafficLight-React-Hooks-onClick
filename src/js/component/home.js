@@ -12,15 +12,15 @@ export function Home(props) {
 					className={
 						color === "red" ? "red active" : "red inactive"
 					}
-					// onClick={() => setColor("red")}
+					onClick={() => setColor("red")}
 				/>
 				<div
 					className={
-						props.color === "yellow"
+						color === "yellow"
 							? "yellow active"
 							: "yellow inactive"
 					}
-					// onClick={() => setColor("yellow")}
+					onClick={() => setColor("yellow")}
 				/>
 				<div
 					className={
